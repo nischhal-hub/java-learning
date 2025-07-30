@@ -12,10 +12,8 @@ class Mammal implements Animal{
 
 public class Interfaces {
     public static void main(String a[]){
-
         Mammal dog = new Mammal();
         dog.Walk();
         System.out.println(Mammal.Name);
     }
-
 }
