@@ -2,6 +2,8 @@
 
 This repository contains various Java examples and exercises covering fundamental Java programming concepts.
 
+[![wakatime](https://wakatime.com/badge/github/nischhal-hub/java-learning.svg)](https://wakatime.com/badge/github/nischhal-hub/java-learning)
+
 ## Project Structure
 
 ### 1-basics/
