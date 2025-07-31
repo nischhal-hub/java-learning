@@ -1,5 +1,4 @@
 import javax.swing.*;
-import javax.swing.GroupLayout.Group;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -11,17 +10,15 @@ public class UIComponents {
         frame.setLayout(new GridLayout(4,4));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
+        //btn group for radio buttons
         ButtonGroup genderGroup = new ButtonGroup();
-
-        
-        // GridBagConstraints gbc = new GridBagConstraints();
         
         JLabel nameLabel = new JLabel("Name: ");
         frame.add(nameLabel);
 
         JTextField nameField = new JTextField();
         
-
+        //
         JScrollPane scrollPane = new JScrollPane(nameField);
         scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         frame.add(scrollPane);
@@ -35,6 +32,8 @@ public class UIComponents {
             public void actionPerformed(ActionEvent e){
                 submitBtn.setBackground(Color.BLUE);
                 frame.setBackground(Color.ORANGE);
+                //to show dialogs..
+                JOptionPane.showMessageDialog(frame, "Button Clicked!!");
             }
         });
 
