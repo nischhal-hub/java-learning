@@ -33,6 +33,19 @@ Contains compiled classes and package examples:
 - Inner class and nested class examples
 - Static and non-static nested class implementations
 
+### 2-UI/
+Contains Java Swing GUI examples and layouts:
+- `BorderLayoutExample.java` - Demonstrates BorderLayout manager
+- `ColorChooser.java` - Example of JColorChooser component
+- `FileChooser.java` - Implementation of JFileChooser
+- `GridBagLayoutExample.java` - Advanced GridBagLayout usage
+- `GridLayoutExample.java` - Grid-based component arrangement
+- `GroupLayoutExample.java` - Modern GroupLayout manager example
+- `InternalFrames.java` - JInternalFrame implementation
+- `NoLayout.java` - Absolute positioning example
+- `Tables.java` - JTable component demonstration
+- `UIComponents.java` - Various Swing UI components showcase
+
 ## Topics Covered
 
 1. Basic Java Syntax
@@ -47,6 +60,11 @@ Contains compiled classes and package examples:
    - Thread Creation
    - Synchronization
 7. Package Management
+8. GUI Programming with Swing
+   - Layout Managers
+   - UI Components
+   - Dialogs and Choosers
+   - Tables and Internal Frames
 
 ## Getting Started
 
