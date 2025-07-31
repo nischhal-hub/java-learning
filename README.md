@@ -21,14 +21,16 @@ Contains basic Java programming examples and exercises:
 - `Syncronization.java` - Thread synchronization examples
 - `TestInnerPackage.java` - Package usage example
 - `Threads.java` - Multithreading examples
-
-### files-op/
+| 
+|
+ - ## files-op/
 Contains files used for file operation examples:
 - `ch.txt` - Character data file
 - `input.txt` - Input test file
 - `output.txt` - Output test file
-
-### packages/
+| 
+|
+ - ### packages/
 Contains compiled classes and package examples:
 - Inner class and nested class examples
 - Static and non-static nested class implementations
